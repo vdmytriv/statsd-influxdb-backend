@@ -3,6 +3,7 @@
 Vita Zhao extend this feature to support influxdb v0.11 and v0.12 with line protocal.
 ### configurate file also need to be changed:
 1.version should large than 0.11
+
 2.add rp
 
 Thanks

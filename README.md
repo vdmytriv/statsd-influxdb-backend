@@ -7,7 +7,12 @@ Vita Zhao extend this feature to support influxdb v0.11 and v0.12 with line prot
 2.add rp
 
 Thanks
-Vita Zhao
+
+Vita
+
+
+
+
 -----------------------
 
 **LOOKING FOR A MAINTAINER:** [I am looking for a maintainer for this project](https://github.com/bernd/statsd-influxdb-backend/issues/26)

@@ -1,4 +1,12 @@
 StatsD InfluxDB backend
+**The Latest update to support influxdb v0.11**
+Vita Zhao extend this feature to support influxdb v0.11 and v0.12 with line protocal.
+configurate file also need to be changed:
+1.version should large than 0.11
+2.add rp
+
+Thanks
+Vita Zhao
 -----------------------
 
 **LOOKING FOR A MAINTAINER:** [I am looking for a maintainer for this project](https://github.com/bernd/statsd-influxdb-backend/issues/26)
@@ -49,9 +57,10 @@ You can configure the following settings in your StatsD config file.
   influxdb: {
     host: '127.0.0.1',   // InfluxDB host. (default 127.0.0.1)
     port: 8086,          // InfluxDB port. (default 8086)
-    version: 0.8,        // InfluxDB version. (default 0.8)
+    version: 0.11,        // InfluxDB version. (default 0.8)
     ssl: false,          // InfluxDB is hosted over SSL. (default false)
     database: 'dbname',  // InfluxDB database instance. (required)
+    retentionPolicy: 'default',    // InfluxDB database Retention policy (default default).
     username: 'user',    // InfluxDB database username.
     password: 'pass',    // InfluxDB database password.
     flush: {
